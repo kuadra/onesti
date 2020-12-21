@@ -1,0 +1,17 @@
+.member{
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px;
+    width:500px;
+}
+
+.member-img{
+    display: inline-block;
+    width: 100px;
+}
+
+.member-text{
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
