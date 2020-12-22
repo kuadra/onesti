@@ -6,12 +6,18 @@
 }
 
 .member-img{
-    display: inline-block;
-    width: 100px;
+    width: 300px;
+    margin: auto;
 }
 
 .member-text{
     width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    padding: 20px;
 }
+
+.member-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.member-descr{}

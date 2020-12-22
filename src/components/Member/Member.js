@@ -5,10 +5,12 @@ function Member(props) {
     let imgSrc = "https://robohash.org/" + props.name + ".png";
     return (
         <div class="member">
-            <img className="member-img" src={imgSrc}></img>
+            <div className="member-img">
+                <img src={imgSrc}></img>
+            </div>
             <div class="member-text">
-                <p>{props.name}</p>
-                <p>{props.descr}</p>
+                <p className="member-name">{props.name}</p>
+                <p className="member-descr">{props.descr}</p>
             </div>
         </div>
     )
