@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
->>>>>>> main
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
