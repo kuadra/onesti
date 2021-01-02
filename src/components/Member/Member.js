@@ -4,7 +4,7 @@ import './Member.css';
 function Member(props) {
     let imgSrc = "https://robohash.org/" + props.name + ".png";
     return (
-        <div class="member">
+        <div className="member">
             <div className="member-img">
                 <img src={imgSrc}></img>
             </div>

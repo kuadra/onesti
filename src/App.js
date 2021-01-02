@@ -46,8 +46,8 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Members />
         <Portfolio data={this.state.resumeData.portfolio}/>
+        <Members />
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
