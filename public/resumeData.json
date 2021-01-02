@@ -3,12 +3,6 @@
     "name":"Agenzia degli Onesti",
     "description":"Siamo delle persone oneste ci piacciono le cose semplici, come il thé",
     "image":"profilepic.jpg",
-    "bio":"Accompagniamo le PMI e non nel mondo del digitale, gestiamo progetti e campagne pubblicitarie di ogni tipo e per ogni obiettivo. Siamo un gruppo di giovani talenti laureati con esperienza. Ognuno di noi ha acquistato un background in grandi aziende su diversi campi, oggi siamo stufi di impegnarci per grandi player e vogliamo mettere in campo i nostri talenti per te!",
-    "strategia":"Sviluppiamo la migliore strategia in base ai tuoi obbiettivi. Non improvvisiamo, non abbiamo la bacchetta magica, ma osserviamo, analizziamo e creiamo una strategia ad hoc per raggiungere i tuoi obbiettivi sia online che offline. Giochiamo in attacco, a noi piace fare goal!",
-    "social_media_marketing":"Gestiamo e valorizziamo la tua fanbase. Non siamo d’accordo con chi dice che i social per le PMI sono superflui. Grazie all’abilità dei nostri gestori toccherai con mano il valore ottenibile dai social media. Profilazione, targetizzazione geografica ed engagment, qui, sono le nostre armi!",
-    "search_marketing":"Fatti trovare da tutti i tuoi possibili clienti, ci sono tanti strumenti, da Google alle app meno conosciute siamo in grado di offrirti una panoramicha delle possibilità e scegliere le migliori per te, ci piace raggiungere le vette più alte di visibilità e rimanerci!",
-    "creazione_siti_web_e_app": "Un servizio per chi vuole sfruttare in profondità il digitale in tutti i suoi aspetti. Dal sito web vetrina per fare brand identity e comunicazione, ad e-commerce performanti per vendere online, passando per app. web per seguire i tuoi clienti in ogni momento e sistemi di gestione dei tuoi clienti. L’agenzia degli Onesti ti trasforma!",
-    "creazione_advertising": "La nostra expertise ci permette di offrire ogni tipo di creatività pubblicitaria dalle grafiche ai video. Grafiche in stile guerilla marketing conquisteranno i tuoi possibili clienti online e offline, produzioni video di valore avvaloreranno il tuo marchio e daranno la giusta visibilità al tuo saper fare. Gestiamo campagne online e offline coscienti dei parametri da attenzionare, in tempo reale e non, facendoci trovare pronti ad aggiustare il tiro per raggiungere l’obbiettivo.",
     "contactmessage":"Scriveteci per domande, preventivi e richieste stravaganti",
     "email": "onestiagency@onesti.com",
     "phone": "+39 354 66 78 987",
@@ -54,33 +48,69 @@
     "projects": [
       {
         "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "category":"Strategie Push di Vendita per il Mercato Online",
         "image":"canadian-wanderlust.jpg",
         "url":"https://www.canadianwanderlust.com"
       },
       {
+        "title":"Smirkspace",
+        "category":"Creazione e Gestione Campagne Pubblicitarie e di Marketing ad Alto Impatto",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
         "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "category":"Brand Identity, Logo e Comunicazione",
         "image":"fury-fighting-gear.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
         "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "category":"Gestione Social Network e contenuti (FB, Instagram, Youtube, LinkedIn, TikTok, Pintrest)",
         "image":"original-thai-food.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
         "title":"Resume Website",
-        "category":"A React based resume website template",
+        "category":"Search Marketing Organico e a Pagamento (SEO-SEM) su ogni Motore di Ricerca (Google, Yahoo, Bing) e App. web (Google Maps, Waze)",
         "image":"resume-website.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Resume Website",
+        "category":"Creazione Siti Web, E-commerce e App",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Resume Website",
+        "category":"Gestione Siti Web: contenuti e strategia",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Resume Website",
+        "category":"Gestione E-Commerce: tecnica online e logistica/strategica offline",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Resume Website",
+        "category":"Video: Creazione Adv Video e Contenuti Video",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Resume Website",
+        "category":"Consulenze Gestioni IN-store",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Resume Website",
+        "category":"Creazione Nuove Opportunità: espansione su altri mercati o estero tramite digitale.",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
       }
     ]
   }

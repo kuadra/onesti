@@ -5,7 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Examples from './examples/Examples';
 import Contact from './components/Contact';
 import Members from './components/Members'
 class App extends Component {
@@ -46,7 +46,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Examples data={this.state.resumeData.portfolio}/>
         <Members />
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
