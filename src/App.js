@@ -5,7 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
-import Examples from './examples/Examples';
+import Examples from './components/examples/Examples';
 import Contact from './components/Contact';
 import Members from './components/Members'
 class App extends Component {

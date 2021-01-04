@@ -14,10 +14,8 @@ function Members() {
     ]
 
     return (
-        <section id="members" className="members-container">{
-            a.map((member) =>
-                <Member key={member.id} name={member.name} descr={member.descr} />
-            )}
+        <section id="members" className="members-container">
+            {a.map((member) => <Member key={member.id} name={member.name} descr={member.descr} />)}
         </section>);
 
 }

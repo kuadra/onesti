@@ -8,16 +8,16 @@ class About extends Component {
 
       return (
          <section id="about">
-            <div className="row">
-               <h2>Su di noi</h2>
-               <p>
-                  Accompagniamo le PMI e non nel mondo del digitale, gestiamo progetti e 
-                  campagne pubblicitarie di ogni tipo e per ogni obbiettivo.
-                  Siamo un gruppo di giovani talenti laureati con esperienza. Ognuno di 
-                  noi ha acquistato un backgroud in grandi aziende su diversi campi, 
-                  oggi siamo stufi di impegnarci per grandi player e vogliamo mettere 
-                  in campo i nostri talenti per te!
+            <h2 className="section-title">Su di noi</h2>
+            <p className="section-intro">
+               Accompagniamo le PMI e non nel mondo del digitale, gestiamo progetti e
+               campagne pubblicitarie di ogni tipo e per ogni obbiettivo.
+               Siamo un gruppo di giovani talenti laureati con esperienza. Ognuno di
+               noi ha acquistato un backgroud in grandi aziende su diversi campi,
+               oggi siamo stufi di impegnarci per grandi player e vogliamo mettere
+               in campo i nostri talenti per te!
                </p>
+            <div className="row">
                <div className="skills-container">
                   <div className="skill">
                      <h3>Strategia</h3>

@@ -33,6 +33,12 @@ class Examples extends Component {
               )
             }
           </div>
+          <p>
+            Siamo in grado di offrire una gestione multicanale che ci rende sicuramente i migliori partner per la tua azienda,
+            Mettici alla prova e non te ne pentirai.
+            Tanti servizi, tante competenze, un approccio umano e soprattutto ONESTO!
+            Insieme per il successo!
+            </p>
         </div>
       </section>
     )
