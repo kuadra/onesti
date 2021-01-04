@@ -4,10 +4,10 @@ import $ from 'jquery';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './components/About';
+import About from './components/about/About';
 import Examples from './components/examples/Examples';
 import Contact from './components/Contact';
-import Members from './components/Members'
+import Members from './components/member/Members'
 class App extends Component {
 
   constructor(props){

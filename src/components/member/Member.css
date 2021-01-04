@@ -1,3 +1,9 @@
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 .member{
     background-color: white;
     border-radius: 8px;

@@ -1,6 +1,3 @@
-import './Member.css';
-
-
 function Member(props) {
     let imgSrc = "https://robohash.org/" + props.name + ".png";
     return (
@@ -9,7 +6,8 @@ function Member(props) {
                 <img src={imgSrc}></img>
             </div>
             <div class="member-text">
-                <p className="member-name">{props.name}</p>
+                <h5 className="member-name">{props.name}</h5>
+                <hr></hr>
                 <p className="member-descr">{props.descr}</p>
             </div>
         </div>

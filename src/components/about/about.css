@@ -1,0 +1,77 @@
+#about {
+  background-color: #fff;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+#about a,
+#about a:visited {
+  color: #fff;
+}
+#about a:hover,
+#about a:focus {
+  color: #0762f9;
+}
+
+#about h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#about p {
+  line-height: 30px;
+}
+#about .profile-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+#about .contact-details {
+  width: 41.66667%;
+}
+#about .download {
+  width: 58.33333%;
+  padding-top: 6px;
+}
+#about .main-col {
+  padding-right: 5%;
+}
+#about .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+#about .download .button:hover {
+  background: #fff;
+  color: #2b2b2b;
+}
+#about .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+/* custom */
+.section-img {
+  background-color: white;
+}
+
+.img-block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  width: 300px;
+  background-color: white;
+  border: 2px solid rgb(95, 95, 95);
+  margin: 20px;
+  border-radius: 8px;
+  padding: 20px;
+}
