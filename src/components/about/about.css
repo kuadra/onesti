@@ -13,6 +13,7 @@
   color: #0762f9;
 }
 
+<<<<<<< HEAD
 #about h2 {
   font: "opensans-bold", sans-serif;
   margin-bottom: 12px;
@@ -21,6 +22,8 @@
 #about p {
   line-height: 30px;
 }
+=======
+>>>>>>> dev-esempi-flex
 #about .profile-pic {
   position: relative;
   width: 120px;
@@ -76,6 +79,7 @@
   padding: 20px;
 }
 
+<<<<<<< HEAD
 .container {
   list-style: none;
   padding: 0 50px;
@@ -97,4 +101,34 @@
   display: inline-block;
   margin: 0;
   margin-bottom: 0;
+=======
+.skill p{
+  line-height: 25px;
+}
+
+.container {
+  background-color: white;
+  padding: 0 50px;
+}
+
+.item {
+  margin: 5px 0;
+  padding: 0;
+  padding-left: 5px;
+  color:#206984;
+  border-left: 5px solid #cc5200;
+  font-family: sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: wrap row;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+>>>>>>> dev-esempi-flex
 }

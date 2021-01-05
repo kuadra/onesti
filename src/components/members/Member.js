@@ -3,7 +3,7 @@ function Member(props) {
     return (
         <div className="member">
             <div className="member-img">
-                <img src={imgSrc}></img>
+                <img alt="Contact Administration" src={imgSrc}></img>
             </div>
             <div class="member-text">
                 <h5 className="member-name">{props.name}</h5>
