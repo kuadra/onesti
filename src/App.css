@@ -73,7 +73,7 @@ body {
 .bg {
   /* The image used */
   background-image: url("components/logo_resize.png");
-  margin-bottom: 50px;
+  margin: 0px 10px 50px;
   /* Full height */
   height: 90vh;
   /* Center and scale the image nicely */
