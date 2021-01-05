@@ -73,12 +73,11 @@ body {
 .bg {
   /* The image used */
   background-image: url("components/logo_resize.png");
-  ;
+  margin-bottom: 50px;
   /* Full height */
-  height: 100vh;
+  height: 90vh;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
-
