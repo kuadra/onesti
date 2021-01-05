@@ -2,6 +2,10 @@ body {
   background-color: #282c34;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: left;
 }
@@ -60,3 +64,6 @@ body {
   line-height: 40px;
 }
 
+.row h5{
+  text-align: center;
+}

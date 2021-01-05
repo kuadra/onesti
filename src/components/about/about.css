@@ -14,9 +14,9 @@
 }
 
 #about h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
-  color: #fff;
+  font: "opensans-bold", sans-serif;
   margin-bottom: 12px;
+  text-align: center;
 }
 #about p {
   line-height: 30px;
@@ -74,4 +74,27 @@
   margin: 20px;
   border-radius: 8px;
   padding: 20px;
+}
+
+.container {
+  list-style: none;
+  padding: 0 50px;
+}
+
+.inline-b {
+  max-width: 1200px;
+}
+
+.item {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  width: 200px;
+}
+
+.inline-b-item {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 0;
 }
