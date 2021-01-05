@@ -13,17 +13,6 @@
   color: #0762f9;
 }
 
-<<<<<<< HEAD
-#about h2 {
-  font: "opensans-bold", sans-serif;
-  margin-bottom: 12px;
-  text-align: center;
-}
-#about p {
-  line-height: 30px;
-}
-=======
->>>>>>> dev-esempi-flex
 #about .profile-pic {
   position: relative;
   width: 120px;
@@ -79,29 +68,6 @@
   padding: 20px;
 }
 
-<<<<<<< HEAD
-.container {
-  list-style: none;
-  padding: 0 50px;
-}
-
-.inline-b {
-  max-width: 1200px;
-}
-
-.item {
-  padding: 5px;
-  font-weight: bold;
-  font-size: 1em;
-  text-align: center;
-  width: 200px;
-}
-
-.inline-b-item {
-  display: inline-block;
-  margin: 0;
-  margin-bottom: 0;
-=======
 .skill p{
   line-height: 25px;
 }
@@ -130,5 +96,4 @@
   -webkit-flex-flow: row wrap;
   justify-content: space-between;
   align-content: center;
->>>>>>> dev-esempi-flex
 }
