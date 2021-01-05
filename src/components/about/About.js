@@ -16,29 +16,32 @@ const esempi = [
 
 class About extends Component {
   render() {
-    let e = esempi.map((p) => <li className="item flex-item">{p}</li>);
+    let e = esempi.map((p) => <p className="item flex-item">{p}</p>);
 
     return (
       <section id="about">
-        <div className="section-img">
-          <img
-            className="img-block-center"
-            src="./images/onesti/sopra_su_di_noi.jpg"
-          ></img>
+        <div className="row">
+          <div className="section-img">
+            <img
+              alt="ERROR"
+              className="img-block-center"
+              src="./images/onesti/sopra_su_di_noi.jpg"
+            ></img>
+          </div>
+          <h2>Su di noi</h2>
+          <p>
+            Accompagniamo le PMI e non nel mondo del digitale, gestiamo progetti
+            e campagne pubblicitarie di ogni tipo e per ogni obbiettivo. Siamo
+            un gruppo di giovani talenti laureati con esperienza. Ognuno di noi
+            ha acquistato un backgroud in grandi aziende su diversi campi, oggi
+            siamo stufi di impegnarci per grandi player e vogliamo mettere in
+            campo i nostri talenti per te!
+          </p>
         </div>
-        <h2 className="section-title">Su di noi</h2>
-        <p className="section-intro">
-          Accompagniamo le PMI e non nel mondo del digitale, gestiamo progetti e
-          campagne pubblicitarie di ogni tipo e per ogni obbiettivo. Siamo un
-          gruppo di giovani talenti laureati con esperienza. Ognuno di noi ha
-          acquistato un backgroud in grandi aziende su diversi campi, oggi siamo
-          stufi di impegnarci per grandi player e vogliamo mettere in campo i
-          nostri talenti per te!
-        </p>
         <div className="row">
           <div className="skills-container">
             <div className="skill">
-              <img src="./images/onesti/strategia.jpg"></img>
+              <img alt="ERROR" src="./images/onesti/strategia.jpg"></img>
               <h3>Strategia</h3>
               <p>
                 Sviluppiamo la migliore strategia in base ai tuoi obbiettivi.
@@ -50,6 +53,7 @@ class About extends Component {
             </div>
             <div className="skill">
               <img
+                alt="ERROR"
                 className="section-img"
                 src="./images/onesti/social_m_marketing.jpg"
               ></img>
@@ -64,6 +68,7 @@ class About extends Component {
             </div>
             <div className="skill">
               <img
+                alt="ERROR"
                 className="section-img"
                 src="./images/onesti/search_marketing.jpg"
               ></img>
@@ -78,12 +83,13 @@ class About extends Component {
             </div>
             <div className="skill">
               <img
+                alt="ERROR"
                 className="section-img"
                 src="./images/onesti/siti_web_app.jpg"
               ></img>
               <h3>Creazione Siti Web e App</h3>
               <p>
-                un servizio per chi vuole sfruttare in profondità il digitale in
+                Un servizio per chi vuole sfruttare in profondità il digitale in
                 tutti i suoi aspetti. Dal sito web vetrina per fare brand
                 identity e comunicazione, ad e-commerce performanti per vendere
                 online, passando per app. web per seguire i tuoi clienti in ogni
@@ -93,6 +99,7 @@ class About extends Component {
             </div>
             <div className="skill">
               <img
+                alt="ERROR"
                 className="section-img"
                 src="./images/onesti/adv_personalizzata.jpg"
               ></img>
@@ -113,17 +120,16 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <div className="examples">
-          <div className="row">
-            <h3>Alcuni Esempi</h3>
-            <ul className="container flex"> {e}</ul>
-            <p className="section-intro">
-              Siamo in grado di offrire una gestione multicanale che ci rende
-              sicuramente i migliori partner per la tua azienda, Mettici alla
-              prova e non te ne pentirai. Tanti servizi, tante competenze, un
-              approccio umano e soprattutto ONESTO! Insieme per il successo!
-            </p>
-          </div>
+        <div className="row">
+          <h2>Alcuni Esempi</h2>
+          <div className="container flex"> {e}</div>
+          <hr></hr>
+          <p>
+            Siamo in grado di offrire una gestione multicanale che ci rende
+            sicuramente i migliori partner per la tua azienda, Mettici alla
+            prova e non te ne pentirai. Tanti servizi, tante competenze, un
+            approccio umano e soprattutto ONESTO! Insieme per il successo!
+          </p>
         </div>
       </section>
     );
