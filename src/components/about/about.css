@@ -15,7 +15,6 @@
 
 #about h2 {
   font: 22px/30px "opensans-bold", sans-serif;
-  color: #fff;
   margin-bottom: 12px;
 }
 #about p {
@@ -74,4 +73,44 @@
   margin: 20px;
   border-radius: 8px;
   padding: 20px;
+}
+
+#examples {
+  background: #ebeeee;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+#examples h1 {
+  font: 15px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #95a3a3;
+}
+
+.container {
+  background-color: white;
+  padding: 0 50px;
+}
+
+.item {
+  margin: 0;
+  padding: 0;
+  color:#00aeef;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: wrap row;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
 }
