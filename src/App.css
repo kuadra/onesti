@@ -52,7 +52,7 @@ body {
   padding: 32px;
 }
 
-.row h2,h3 {
+.row h2,h3,h4,h5 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -67,6 +67,7 @@ body {
 
 .row > p {
   text-align: center;
+  padding: 0 20px;
 }
 
 .row h5{

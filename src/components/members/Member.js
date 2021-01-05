@@ -1,17 +1,16 @@
 function Member(props) {
-    let imgSrc = "https://robohash.org/" + props.name + ".png";
-    return (
-        <div className="member">
-            <div className="member-img">
-                <img alt="Contact Administration" src={imgSrc}></img>
-            </div>
-            <div class="member-text">
-                <h5 className="member-name">{props.name}</h5>
-                <hr></hr>
-                <p className="member-descr">{props.descr}</p>
-            </div>
-        </div>
-    )
+  let imgSrc = "https://robohash.org/" + props.name + ".png";
+  return (
+    <div className="member">
+      <img
+        className="member-img"
+        alt="Contact Administration"
+        src={imgSrc}
+      ></img>
+      <h5>{props.name}</h5>
+      <p>{props.descr}</p>
+    </div>
+  );
 }
 
 export default Member;

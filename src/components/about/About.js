@@ -120,6 +120,7 @@ class About extends Component {
             </div>
           </div>
         </div>
+        <hr></hr>
         <div className="row">
           <h2>Alcuni Esempi</h2>
           <div className="container flex"> {e}</div>

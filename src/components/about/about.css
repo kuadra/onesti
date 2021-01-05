@@ -82,6 +82,7 @@
   padding: 0;
   padding-left: 5px;
   color:#206984;
+  line-height: unset;
   border-left: 5px solid #cc5200;
   font-family: sans-serif;
 }
