@@ -35,7 +35,6 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
-        <img alt="OOPS LOGO NOT FOUND =)" id="logo" src="./images/onesti/logo_resize.png"></img>
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
             <i className="icon-down-circle"></i>

@@ -1,7 +1,3 @@
-body {
-  background-color: #282c34;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -73,3 +69,16 @@ body {
 .row h5{
   text-align: center;
 }
+
+.bg {
+  /* The image used */
+  background-image: url("components/logo_resize.png");
+  ;
+  /* Full height */
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
